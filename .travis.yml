@@ -13,4 +13,4 @@ matrix:
     
 
 script:
-  - ./gradlew build --scan -s
+  -./gradlew build -x oldEs2Fixture -x oldEs1Fixture -x oldEs090Fixture

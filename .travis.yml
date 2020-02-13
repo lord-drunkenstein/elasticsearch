@@ -10,11 +10,6 @@ jdk:
 matrix:
   allow_failures:
     - jdk: openjdk-ea
-
-branches:
-  only:
-    -master
-    -v7.6.0
     
 
 script:

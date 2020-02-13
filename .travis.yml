@@ -13,8 +13,9 @@ matrix:
 
 branches:
   only:
-    -v7.6.0
     -master
+    -v7.6.0
+    
 
 script:
   - ./gradlew build --scan -s

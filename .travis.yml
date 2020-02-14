@@ -19,4 +19,7 @@ branches:
     
 
 script:
-  - ./gradlew build --scan -s -x oldEs2Fixture -x oldEs1Fixture -x oldEs090Fixture
+  - ./gradlew --continue clean build --scan -s -x oldEs2Fixture -x oldEs1Fixture -x oldEs090Fixture -x buildDockerImage -x buildOssDockerImage
+
+
+
